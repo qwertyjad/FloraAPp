@@ -315,7 +315,7 @@ class PlantInfoData {
       }
     },
     //
-    ' kakawate ': {
+    'kakawate': {
       'plantType': 'Edible',
       'CommonName': 'Madre De Ca Cao',
       'scientificName': {
@@ -370,7 +370,7 @@ class PlantInfoData {
     },
 
     //
-    'Niog-Niogan': {
+    'niog-niogan': {
       'plantType': 'Edible',
       'CommonName': 'Palm-Leaf Fig',
       'scientificName': {
@@ -527,7 +527,7 @@ class PlantInfoData {
     },
 
     //
-    'Yerba Buena': {
+    'yerba buena': {
       'plantType': 'Medicinal',
       'CommonName': 'Spearmint',
       'scientificName': {
@@ -594,7 +594,7 @@ class PlantInfoData {
     },
 
     //
-    ' kalachuchi': {
+    'kalachuchi': {
       'plantType': 'Medicinal',
       'CommonName': 'Temple Flower',
       'scientificName': {'en': 'Plumeria Rubra', 'tl': 'Plumeria Rubra'},
@@ -687,7 +687,7 @@ class PlantInfoData {
     },
 
     //
-    'Damong Maria': {
+    'damong maria': {
       'plantType': 'Medicinal',
       'CommonName': 'Motherwort',
       'scientificName': {'en': 'Artemisia', 'tl': 'Artemisia'},
@@ -814,7 +814,7 @@ class PlantInfoData {
     },
 
     //
-    'balbas Pusa': {
+    'balbas pusa': {
       'plantType': 'Medicinal',
       'CommonName': 'Cats Whiskers ',
       'scientificName': {
@@ -911,7 +911,7 @@ class PlantInfoData {
     },
 
     //
-    'Devils Backbone': {
+    'devils backbone': {
       'plantType': 'Toxic',
       'CommonName': 'Milkbush',
       'scientificName': {
@@ -945,7 +945,7 @@ class PlantInfoData {
     },
 
     //
-    'Devils Ivy': {
+    'devils ivy': {
       'plantType': 'Toxic',
       'CommonName': 'Golden Pothos',
       'scientificName': {'en': 'Epipremnum aureum', 'tl': 'Epipremnum aureum'},
@@ -1106,7 +1106,7 @@ class PlantInfoData {
     },
 
     //
-    'giant Dumb Cane': {
+    'giant dumb cane': {
       'plantType': 'Toxic',
       'CommonName': 'Spotted Dumb Cane',
       'scientificName': {
@@ -1140,7 +1140,7 @@ class PlantInfoData {
     },
 
     //
-    'peace Lily': {
+    'peace lily': {
       'plantType': 'Toxic',
       'CommonName': 'Peace Lily',
       'scientificName': {'en': 'Spathiphyllum', 'tl': 'Spathiphyllum'},
@@ -1170,7 +1170,7 @@ class PlantInfoData {
     },
 
     //
-    'welcome Plant': {
+    'welcome plant': {
       'plantType': 'Toxic',
       'CommonName': 'Lucky Plant',
       'scientificName': {
@@ -1230,7 +1230,7 @@ class PlantInfoData {
     },
 
     //
-    'taingang Daga': {
+    'taingang daga': {
       'plantType': 'Toxic',
       'CommonName': 'Purple Shamrock',
       'scientificName': {'en': 'Oxalis', 'tl': 'Oxalis'},
@@ -1290,7 +1290,7 @@ class PlantInfoData {
     },
 
     //
-    'snake Plant': {
+    'snake plant': {
       'plantType': 'Toxic',
       'CommonName': 'Saint George Sword',
       'scientificName': {
@@ -1305,7 +1305,7 @@ class PlantInfoData {
       },
       'hazards': {
         'en': '• Mildly toxic to humans and pets.',
-        'tl': '• Medyo nakakalason sa mga tao at mga alagang hayop.',
+        'tl': '• Medyo nakakalason sa mga tao at mga alagang hayop.'
       },
       'symptoms': {
         'en':
@@ -1322,7 +1322,7 @@ class PlantInfoData {
     },
 
     //
-    'Buntot Pusa': {
+    'buntot pusa': {
       'plantType': 'Toxic',
       'CommonName': 'Chenille Plant',
       'scientificName': {

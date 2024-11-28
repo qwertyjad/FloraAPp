@@ -5,7 +5,7 @@
     
     <!-- Application Tag -->
     <application
-        android:label="florafolium_app"
+        android:label="FloraFolium"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true"

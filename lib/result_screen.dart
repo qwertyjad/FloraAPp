@@ -80,9 +80,9 @@ class ResultScreenState extends State<ResultScreen> {
     if (value is String) {
       return value;
     } else if (value is Map) {
-      return value[currentLanguage] ?? 'N/A';
+      return value[currentLanguage] ?? 'No data available';
     } else {
-      return 'N/A';
+      return 'No data available';
     }
   }
 
@@ -91,8 +91,7 @@ class ResultScreenState extends State<ResultScreen> {
     final normalizedPlantName = widget.plantName.toLowerCase().trim();
     log('Normalized Plant Name for lookup: $normalizedPlantName');
 
-    final plantInfo = PlantInfoData.plantInfoMap[normalizedPlantName] ??
-        _getDefaultPlantInfo();
+    final plantInfo = PlantInfoData.plantInfoMap[normalizedPlantName] ?? _getDefaultPlantInfo();
     if (plantInfo == _getDefaultPlantInfo()) {
       log('No data found for plant "$normalizedPlantName". Using default information.');
     } else {
@@ -162,7 +161,7 @@ class ResultScreenState extends State<ResultScreen> {
               ),
             const SizedBox(height: 10),
             Text(
-              '${widget.plantName} (${widget.confidence.toStringAsFixed(2)}%)',
+              widget.plantName,
               style: const TextStyle(
                 fontSize: 20,
                 fontWeight: FontWeight.bold,
@@ -248,7 +247,7 @@ class ResultScreenState extends State<ResultScreen> {
     );
   }
 
-  Widget _buildInfoRow(String label, String? value) {
+  Widget _buildInfoRow(String label, String value) {
     log('Building info row: $label - $value');
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 5),
@@ -258,7 +257,7 @@ class ResultScreenState extends State<ResultScreen> {
           Text(label, style: const TextStyle(fontSize: 16)),
           Expanded(
             child: Text(
-              value ?? 'Unknown',
+              value,
               textAlign: TextAlign.right,
               style: const TextStyle(
                 fontSize: 16,
@@ -271,7 +270,7 @@ class ResultScreenState extends State<ResultScreen> {
     );
   }
 
-  Widget _buildExpandableSection(String title, String? content) {
+  Widget _buildExpandableSection(String title, String content) {
     bool isExpanded = false;
     log('Building expandable section: $title');
 
@@ -306,7 +305,7 @@ class ResultScreenState extends State<ResultScreen> {
               Padding(
                 padding: const EdgeInsets.only(top: 5),
                 child: Text(
-                  content ?? 'No information available.',
+                  content,
                   style: const TextStyle(fontSize: 14),
                 ),
               ),
